@@ -14,3 +14,11 @@ function getVehiculesByClient(PDO $pdo, int $clientId): array
     $stmt->execute(['client_id' => $clientId]);
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
+
+function test () {
+
+}
+
+function test1 () {
+    
+}
