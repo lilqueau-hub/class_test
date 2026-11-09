@@ -4,7 +4,7 @@ require_once 'Vehicule.php';
 require_once 'Client.php';
 require_once 'fonctions.php';
 
-// récuperer les données de la bdd
+// récuperer les données de la base de données
 
 
 $clients = getClients($pdo);
